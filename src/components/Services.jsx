@@ -56,7 +56,7 @@ const Services = () => {
             <div className={`${dm_sans.className} grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 pt-14`}>
                 {services.map((service) => {
                     return(
-                        <ServicesCard params={service}/>
+                        <ServicesCard params={service} key={service.title}/>
                     )
                 })}
             </div>
