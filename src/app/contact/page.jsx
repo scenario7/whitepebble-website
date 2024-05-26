@@ -18,9 +18,9 @@ const inter = Inter_Tight({
 
 const page = () => {
   return (
-    <div className='flex flex-col min-h-screen justify-between bg-gradient-to-b from-white to-[#FEEFe8]'>
+    <div className='flex flex-col min-h-screen justify-between'>
       <NavBar />
-      <div className='flex flex-col justify-start items-center p-10'>
+      <div className='flex flex-col justify-start items-center p-10  bg-gradient-to-b from-white to-[#FEEFe8]'>
         <h1 className={`${marcellus.className} text-4xl md:text-6xl lg:text-6xl text-[#171717]`}>CONTACT <span className='text-orange-500'>US</span></h1>
         <div className='flex flex-col md:flex-row lg:flex-row gap-8 py-20'>
           <div className='flex flex-col gap-8 text-[#171717]'>

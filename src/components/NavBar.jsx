@@ -10,7 +10,7 @@ const dm_sans = DM_Sans({
 
 const NavBar = () => {
   return (
-    <div className='flex lg:flex-row md:flex-row flex-col sticky items-center justify-between px-10 lg:pt-10 bg-transparent text-center'>
+    <div className='flex lg:flex-row md:flex-row flex-col sticky items-center justify-between px-10 lg:pt-10 bg-white text-center'>
       <a href="/">
         <Image src={companyLogo} height={100} width={150} className='object-contain'/>
       </a>
